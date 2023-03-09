@@ -1,0 +1,18 @@
+Входные данные
+# Константа
+DC = 0.47
+# Радиус сечения сферы
+PR = 0.05
+# Площадь
+A = np.pi * PR**2
+# mass (kg)
+m = 0.9
+# Плотность воздуха (kg.m-3), Гравитационная постоянная (m.s-2).
+AD = 1.2255
+g = 9.81
+# For convenience, define  this constant.
+k = 0.5 * DC * AD * A
+
+# Initial speed and launch angle (from the horizontal).
+IS = 40
+IA = np.radians(45)

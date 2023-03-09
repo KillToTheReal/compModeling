@@ -74,7 +74,7 @@ X = inv_exp_cdf(U)
 # Построение гистограммы сравнения с теоретической плотностью распределения
 x = np.linspace(0, 5, 10000)
 y = lambda x: np.exp(-x)
-plt.hist(X, density=True, bins=20)
+plt.hist(X, density=True, bins=200)
 plt.plot(x, y(x), 'r--', linewidth=2)
 plt.show()
 
